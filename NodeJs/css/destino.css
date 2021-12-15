@@ -10,7 +10,8 @@ body {
   color: #3f3c3c; }
 
 a {
-  color: #3f3c3c; }
+  color: #3f3c3c;
+  text-decoration: none; }
 
 .topnav {
   height: 5rem;
@@ -137,3 +138,63 @@ a {
   font-size: 1rem;
   line-height: 1.2rem;
   color: white; }
+
+.t-small-section-hdl {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 700; }
+
+.t-small-body {
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+.store-category-filters {
+  display: block; }
+
+.btn {
+  border: 0;
+  border-radius: 0;
+  padding: 0; }
+  .btn__secondary {
+    padding: 0.2rem 1.5rem;
+    height: 2.5rem;
+    border: 1px solid #3f3c3c;
+    font-weight: 700; }
+
+.product-cell__image-wrapper {
+  overflow: hidden;
+  position: relative;
+  padding-top: 100%; }
+
+.product-cell__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .product-cell__image--electrode {
+    background-image: url(../../images/categories/examroom/medoneelectrode.jpg); }
+  .product-cell__image--diaper {
+    background-image: url(../../images/categories/personalcare/igadultdiapersizel.png); }
+  .product-cell__image--gown {
+    background-image: url(../../images/categories/personalprotection/globalprotectivesurgicalgown.jpg); }
+  .product-cell__image--hydrocolloid {
+    background-image: url(../../images/categories/woundcare/products/novadermhydrocolloidthin10x10.jpg); }
+
+.product-cell__data {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: block; }
+
+.product-cell__name {
+  margin-top: 1rem;
+  display: block; }
+
+.product-cell__brand {
+  color: rgba(63, 60, 60, 0.6);
+  display: block; }
